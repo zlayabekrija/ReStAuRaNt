@@ -98,7 +98,7 @@ const mains = () => {
         pork: {
             name: 'Pork meddalions',
             desc: 'Spicy pork with caramelized onions',
-            price: '22',
+            price: '32',
             img: Pork
         },
         lamb: {
@@ -180,7 +180,7 @@ const drinks = () => {
         rose: {
             name: 'Whispering Angel - Chateau d\'Esclans',
             desc: 'Juicy, enticing, strawberry and berry fruit',
-            price: 108,
+            price: '108',
             img: Rose
         },
         brandy: {

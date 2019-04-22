@@ -38,6 +38,12 @@ const welcome = () => {
     const listItem4 = listItem1.cloneNode(true);
     listItem4.classList.add('item');
     listItem4.textContent = 'Drinks';
+    const listItem5 = listItem1.cloneNode(true);
+    listItem5.classList.add('item');
+    listItem5.textContent = 'Contact';
+    const listItem6 = listItem1.cloneNode(true);
+    listItem6.classList.add('item');
+    listItem6.textContent = 'Booking';
     //append to left div
     leftDiv.appendChild(welcomeText);
     leftDiv.appendChild(welcomeChoice);
@@ -47,6 +53,8 @@ const welcome = () => {
     list.appendChild(listItem2);
     list.appendChild(listItem3);
     list.appendChild(listItem4);
+    list.appendChild(listItem5);
+    list.appendChild(listItem6);
     center.appendChild(list);
     rightDiv.appendChild(center);
     //append to content

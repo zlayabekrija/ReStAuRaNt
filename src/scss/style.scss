@@ -43,6 +43,7 @@
     }
     .item {
         margin: 20px 0;
+        font-size: 2rem;
     }
     .left {
         text-align: justify;
@@ -81,7 +82,7 @@
         width: 20%;
         list-style: none;
         text-align: center;
-        top: 0;
+        top: 50px;
         position: absolute;
         right: 0;
     }
@@ -90,11 +91,45 @@
         height: 100px;
         border-radius: 10px;
         position: relative;
-        top: -70px;
+        top: -60px;
         left: 70px;
     }
     .text {
         position: relative;
         top: 50px;
         left:50px;
+    }
+    .desc {
+        width: 50%;
+        float: right;
+    }
+    .price {
+        font-size: 1.5em;
+        width: 50%;
+        float: right;
+    }
+    .carrier {
+        width:50%;
+        font-size: 2rem;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    .carrier h5 {
+        font-size: 2.5rem;
+    }
+    .carrier p {
+        font-size: 2rem;
+    }
+    .form {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    input::placeholder{
+        font-size: 2rem;
     }

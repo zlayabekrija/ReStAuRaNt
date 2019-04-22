@@ -211,9 +211,11 @@ const renderItems = (items) => {
     const name = document.createElement('h5');
     name.textContent = items.name;
     const desc = document.createElement('p');
+    desc.classList.add('desc')
     desc.textContent = items.desc;
     const price = document.createElement('span');
-    price.textContent = items.price;
+    price.classList.add('price')
+    price.textContent = items.price + " $";
     const image = document.createElement('img');
     image.classList.add('imagem')
     image.src = items.img;

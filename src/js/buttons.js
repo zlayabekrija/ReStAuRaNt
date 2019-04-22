@@ -26,12 +26,10 @@ import High from '../img/high.jpg';
 
 const topParent = document.getElementById('content');
 
-const clearDisplay = () => {
-    topParent.innerHTML = '';
-}
+
 document.getElementById('content');
 const starters = () => {
-    clearDisplay();
+
     let starters = {
         soup1: {
             name: 'French Onion Soup',
@@ -75,7 +73,7 @@ const starters = () => {
     }
 };
 const mains = () => {
-    clearDisplay();
+
     let mains = {
         stake: {
             name: 'Dry Aged NY stake',
@@ -119,7 +117,7 @@ const mains = () => {
     }
 };
 const dessertes = () => {
-    clearDisplay();
+
     let dessertes = {
         cream: {
             name: 'Pannacota',
@@ -163,7 +161,7 @@ const dessertes = () => {
     }
 };
 const drinks = () => {
-    clearDisplay();
+
     let drinks = {
         red: {
             name: 'Cabernet Sauvignon Decoy Sonoma County',

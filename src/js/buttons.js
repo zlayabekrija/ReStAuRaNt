@@ -219,10 +219,7 @@ const renderItems = (items) => {
     image.src = items.img;
     const singleMenuItem = document.createElement('div');
     singleMenuItem.classList.add('left', 'singleItem');
-    singleMenuItem.append(name);
-    singleMenuItem.append(desc);
-    singleMenuItem.append(price);
-    singleMenuItem.append(image);
+    singleMenuItem.append(name,desc,price,image);
     topParent.append(singleMenuItem);
     return topParent;
 }

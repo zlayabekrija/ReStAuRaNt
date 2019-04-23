@@ -36,11 +36,7 @@ const booking = () => {
     date.placeholder = 'Date and Time';
     date.classList.add('form-control');
     date.setAttribute("required", "");
-    field.appendChild(name);
-    field.appendChild(email);
-    field.appendChild(number);
-    field.appendChild(date);
-    field.appendChild(submit);
+    field.append(name,email,number,date,submit);
     legened.appendChild(field);
     form.appendChild(legened);
     book.appendChild(form);

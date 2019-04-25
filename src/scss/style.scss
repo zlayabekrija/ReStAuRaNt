@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import "~bootstrap/scss/bootstrap";
+.b-ground{
+    background-image: url("../img/takahiro-taguchi-1447850-unsplash.jpg");
+    width: 100%;
+    background-size: cover;
+    font-family:'Tangerine', cursive;
+    font-weight: 100;
+    }
+#content {
+        position: relative;
+        width: 90%;
+        min-height: 100vh;
+        margin: auto;
+        margin-top: 2.5em;
+        background-color: wheat;
+        opacity: .9;
+        border-radius: 15px;
+    }
+    .intro {
+        opacity: 1;
+        color:blue;
+        float: left;
+        font-size: 2em;
+    }
+    .left, .right{
+        width: 50%;
+        box-sizing: border-box;
+        padding: 5px;
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+    .menu {
+        font-size: 3em;
+        list-style: none;
+        text-align: center;
+    }
+    .center {
+        margin: auto;
+        width: 50%;
+    }
+    .item {
+        margin: 20px 0;
+        font-size: 2rem;
+    }
+    .left {
+        text-align: justify;
+    }
+    .buttons {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+    .button {
+        margin: 0 10px;
+        height: 100%;
+        width: 20%;
+        opacity: 1;
+        padding: 0;
+        font-size: 2em;
+    }
+    .singleItem {
+        width: 40%;
+        font-size: 1.5rem;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: right;
+        
+    }
+    .singleItem h5{
+        font-size: 2rem;
+    }
+    .singleItem img {
+        float: left;
+    }
+    .foot {
+        width: 20%;
+        list-style: none;
+        text-align: center;
+        top: 50px;
+        position: absolute;
+        right: 0;
+    }
+    .imagem {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        position: relative;
+        top: -60px;
+        left: 70px;
+    }
+    .text {
+        position: relative;
+        top: 50px;
+        left:50px;
+    }
+    .desc {
+        width: 50%;
+        float: right;
+    }
+    .price {
+        font-size: 1.5em;
+        width: 50%;
+        float: right;
+    }
+    .carrier {
+        width:50%;
+        font-size: 2rem;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    .carrier h5 {
+        font-size: 2.5rem;
+    }
+    .carrier p {
+        font-size: 2rem;
+    }
+    .form {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    input::placeholder{
+        font-size: 2rem;
+    }

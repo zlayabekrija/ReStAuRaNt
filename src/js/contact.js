@@ -15,14 +15,8 @@ const contact = () => {
     addr.textContent = 'Na Kampe 33';
     zip.textContent = '10000';
     coutry.textContent = 'Prague, Czech Republic';
-    carrier.append(location);
-    carrier.append(reach);
-    carrier.append(line);
-    adress.append(addr);
-    adress.append(line);
-    adress.append(zip);
-    adress.append(line);
-    adress.append(coutry);
+    carrier.append(location,reach,line);
+    adress.append(addr,line,zip,coutry);
     carrier.append(adress);
     topParent.append(carrier);
     return topParent;

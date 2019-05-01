@@ -19,39 +19,37 @@ import {
   dessertes,
   drinks
 } from './js/buttons';
-
+const clearDisplay = () => {
+  document.getElementById('content').innerHTML = '';
+}
 window.onload = () => {
   document.querySelector('body').classList.add('b-ground');
   welcome();
 }
 document.addEventListener('click', function (e) {
+  clearDisplay();
   switch (e.target.textContent) {
     case 'Starters':
       starters();
-      footerMenu();
       break;
     case 'Main':
       mains();
-      footerMenu();
       break;
     case 'Dessertes':
       dessertes();
-      footerMenu();
       break;
     case 'Drinks':
       drinks();
-      footerMenu();
       break;
     case 'Contact':
       contact();
-      footerMenu();
       break;
     case 'Booking':
       booking();
-      footerMenu();
       break;
     case 'Book':
       booked();
       break;
   }
+  footerMenu();
 });

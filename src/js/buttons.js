@@ -26,12 +26,10 @@ import High from '../img/high.jpg';
 
 const topParent = document.getElementById('content');
 
-const clearDisplay = () => {
-    topParent.innerHTML = '';
-}
+
 document.getElementById('content');
 const starters = () => {
-    clearDisplay();
+
     let starters = {
         soup1: {
             name: 'French Onion Soup',
@@ -75,7 +73,7 @@ const starters = () => {
     }
 };
 const mains = () => {
-    clearDisplay();
+
     let mains = {
         stake: {
             name: 'Dry Aged NY stake',
@@ -98,7 +96,7 @@ const mains = () => {
         pork: {
             name: 'Pork meddalions',
             desc: 'Spicy pork with caramelized onions',
-            price: '22',
+            price: '32',
             img: Pork
         },
         lamb: {
@@ -119,7 +117,7 @@ const mains = () => {
     }
 };
 const dessertes = () => {
-    clearDisplay();
+
     let dessertes = {
         cream: {
             name: 'Pannacota',
@@ -163,7 +161,7 @@ const dessertes = () => {
     }
 };
 const drinks = () => {
-    clearDisplay();
+
     let drinks = {
         red: {
             name: 'Cabernet Sauvignon Decoy Sonoma County',
@@ -180,7 +178,7 @@ const drinks = () => {
         rose: {
             name: 'Whispering Angel - Chateau d\'Esclans',
             desc: 'Juicy, enticing, strawberry and berry fruit',
-            price: 108,
+            price: '108',
             img: Rose
         },
         brandy: {
@@ -221,10 +219,7 @@ const renderItems = (items) => {
     image.src = items.img;
     const singleMenuItem = document.createElement('div');
     singleMenuItem.classList.add('left', 'singleItem');
-    singleMenuItem.append(name);
-    singleMenuItem.append(desc);
-    singleMenuItem.append(price);
-    singleMenuItem.append(image);
+    singleMenuItem.append(name,desc,price,image);
     topParent.append(singleMenuItem);
     return topParent;
 }

@@ -1,6 +1,6 @@
 #### Hi there ,
 
-###### This is a minimalistic desing restaurnat web presentation made with Java Script.
+###### This is a minimalistic desing restaurnat web presentation including reservation form.
 
       *Presentation has been built using node as a server and webpack for assests menagment.*
 

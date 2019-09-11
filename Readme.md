@@ -1,21 +1,47 @@
-#### Hi there ,
+# Restaurant 
 
-###### This is a minimalistic desing restaurnat web presentation including reservation form.
+## Summary
+<hr>
 
-      *Presentation has been built using node as a server and webpack for assests menagment.*
+This is the template for the restaurant with multiple pages ready to be used as frontend for web presentation. It was built in javascript and bunldled with webpack.
 
-Web pages were dyncamicly created with JS functions that were recieving an objects and extracting their values to HTML. For styling purposes CSS as the ouptut SCSS as input was used in most of the cases, with exceptions of few lines from Bootstrap.
+## Getting Started
+<hr>
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
 
+This project runs with Node.js and NPM. If you don't have those installed, follow this [guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-#### In order to run this project please follow the guide lines:
+After installation, run` node -v` to make sure Node.js installed correctly.
 
-Clone the project from github
+``` 
+$ node -v
+> v8.16.1
+```
+Also make sure that NPM is installed by running npm -v.
+```
+$ npm -v
+> 6.11.2
+```
+### Installing
 
-Run `npm install` to install all modules and dependacies
+Run `npm install` to install all project dependencies.
 
-Run `npm run server`  to actually run the app. And Voila :) 
+### Serve Project
 
+Start the application with the following command:
 
+```
+npm run serve
+```
 
-Feel free to fork, comment, suggest..... 
+In development mode run following command to preview changes:
+
+```
+npm run watch
+```
+
+### Contributor
+
+[Zlatan](https://github.com/zlayabekrija)
